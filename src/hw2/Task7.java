@@ -20,19 +20,19 @@ public class Task7 {
 
         switch (code) {
             case 905: {
-                System.out.println("Стоимость 10 минут разговора с Москвой: " + moscow * duration);
+                System.out.println("Стоимость " + duration + " минут разговора с Москвой: " + moscow * duration);
                 break;
             }
             case 194: {
-                System.out.println("Стоимость 10 минут разговора с Ростовом: " + rostov * duration);
+                System.out.println("Стоимость " + duration + " минут разговора с Ростовом: " + rostov * duration);
                 break;
             }
             case 491: {
-                System.out.println("Стоимость 10 минут разговора с Краснодаром: " + krasnodar * duration);
+                System.out.println("Стоимость " + duration + " минут разговора с Краснодаром: " + krasnodar * duration);
                 break;
             }
             case 800: {
-                System.out.println("Стоимость 10 минут разговора с Кировом: " + kirov * duration);
+                System.out.println("Стоимость " + duration + " минут разговора с Кировом: " + kirov * duration);
                 break;
             }
         }
