@@ -19,11 +19,11 @@ public class Phone {
     public Phone() {
     }
 
-    public static void receiveCall(String name) {
+    public void receiveCall(String name) {
         System.out.println("Звонит " + name);
     }
 
-    public static void receiveCall(String name, String number) {
+    public void receiveCall(String name, String number) {
         System.out.println("Звонит " + name + " c номера " + number);
     }
 
