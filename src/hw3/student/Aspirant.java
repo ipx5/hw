@@ -4,9 +4,9 @@ public class Aspirant extends Student {
 
     private final boolean scienceWork;
 
-    public Aspirant(String firstName, String lastName, String group, double averageMark) {
+    public Aspirant(String firstName, String lastName, String group, double averageMark, boolean scienceWork) {
         super(firstName, lastName, group, averageMark);
-        this.scienceWork = true;
+        this.scienceWork = scienceWork;
     }
 
     @Override
