@@ -2,9 +2,9 @@ package hw4.cars;
 
 public class SportCar extends Car {
 
-    private Double maxSpeed;
+    private double maxSpeed;
 
-    public SportCar(Double maxSpeed, String brand, String variety, Double weight, Integer enginePower, String engineManufacturer) {
+    public SportCar(double maxSpeed, String brand, String variety, double weight, int enginePower, String engineManufacturer) {
         super(brand, variety, weight, enginePower, engineManufacturer);
         this.maxSpeed = maxSpeed;
     }

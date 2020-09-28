@@ -2,12 +2,12 @@ package hw4.squares;
 
 public class Triangle implements Shape {
 
-    private Double a;
-    private Double b;
-    private Double c;
-    private Double p;
+    private double a;
+    private double b;
+    private double c;
+    private double p;
 
-    public Triangle(Double a, Double b, Double c) {
+    public Triangle(double a, double b, double c) {
         this.a = a;
         this.b = b;
         this.c = c;
@@ -16,11 +16,11 @@ public class Triangle implements Shape {
 
 
     @Override
-    public Double square() {
+    public double square() {
         if (correctFigure()) {
             return Math.pow(p * (p - a) * (p - b) * (p - c), 0.5);
         } else {
-            return null;
+            return 0;
         }
     }
 

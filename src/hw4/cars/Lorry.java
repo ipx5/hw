@@ -2,9 +2,9 @@ package hw4.cars;
 
 public class Lorry extends Car {
 
-    private Double liftingCapacity;
+    private double liftingCapacity;
 
-    public Lorry(Double liftingCapacity, String brand, String variety, Double weight, Integer enginePower, String engineManufacturer) {
+    public Lorry(double liftingCapacity, String brand, String variety, double weight, int enginePower, String engineManufacturer) {
         super(brand, variety, weight, enginePower, engineManufacturer);
         this.liftingCapacity = liftingCapacity;
     }

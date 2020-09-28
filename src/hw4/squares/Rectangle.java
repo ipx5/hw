@@ -2,16 +2,16 @@ package hw4.squares;
 
 public class Rectangle implements Shape {
 
-    private Double a;
-    private Double b;
+    private double a;
+    private double b;
 
-    public Rectangle(Double a, Double b) {
+    public Rectangle(double a, double b) {
         this.a = a;
         this.b = b;
     }
 
     @Override
-    public Double square() {
+    public double square() {
         return a * b;
     }
 }

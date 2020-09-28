@@ -4,10 +4,10 @@ public abstract class Car {
 
     private String brand;
     private String variety;
-    private Double weight;
+    private double weight;
     private Engine engine;
 
-    public Car(String brand, String variety, Double weight, Integer enginePower, String engineManufacturer) {
+    public Car(String brand, String variety, double weight, Integer enginePower, String engineManufacturer) {
         this.brand = brand;
         this.variety = variety;
         this.weight = weight;
@@ -28,7 +28,7 @@ public abstract class Car {
         return variety;
     }
 
-    public Double getWeight() {
+    public double getWeight() {
         return weight;
     }
 

@@ -2,15 +2,15 @@ package hw4.cars;
 
 public class Engine {
 
-    private Integer power;
+    private int power;
     private String manufacturer;
 
-    public Engine(Integer power, String manufacturer) {
+    public Engine(int power, String manufacturer) {
         this.power = power;
         this.manufacturer = manufacturer;
     }
 
-    public Integer getPower() {
+    public int getPower() {
         return power;
     }
 
